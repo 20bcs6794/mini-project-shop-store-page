@@ -1,0 +1,120 @@
+HTML - code
+___________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="pink">
+        <div class=" d-flex flex-row  ">
+            <h1 class=" head-text">Shop in your favourite stores</h1>
+            <img src="https://assets.ccbp.in/frontend/static-website/stores-img.png" class="trolly" />
+        </div>
+        <div class="stores">
+            <h1 class="heading">Select your store with one click</h1>
+            <div class="store d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/amazon-logo-img.png" class="store-image" />
+                <div class="description">
+                    <h1 class="store-name">Amazon</h1>
+                    <p class="store-description">Online Shopping Free Shipping & Cash on Delivery ...</p>
+                </div>
+            </div>
+            <div class="store d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/ikea-logo-img.png" class="store-image" />
+                <div class="description">
+                    <h1 class="store-name">IKEA</h1>
+                    <p class="store-description">Explore our furniture & home furnishing range. IKEAVis a global leader...</p>
+                </div>
+            </div>
+            <div class="store d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/bewakoof-logo-img.png" class="store-image">
+                <div class="description">
+                    <h1 class="store-name">Bewakoof</h1>
+                    <p class="store-description">A lifestyle fashion brand that offers creative and distinctive fashion...</p>
+                </div>
+            </div>
+            <div class="store d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flipkart-logo-img.png" class="store-image">
+                <div class="description">
+                    <h1 class="store-name">Flipkart</h1>
+                    <p class="store-description">Wide range of genius products, easy returns, cash on delivery, browse now...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+_______________________________________________________________________________________________________________________________________________________
+
+CSS - CODE
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.pink {
+    background-color: #894bca;
+    height: 40vh;
+    background-size: cover;
+}
+
+.head-text {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 30px;
+    padding: 30px;
+}
+
+.trolly {
+    height: 180px;
+    width: 180px;
+
+}
+
+.stores {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 40px;
+}
+
+.heading {
+    color: #f780c3;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.store {
+    margin: 20px;
+}
+
+.description {
+    margin-left: 10px;
+}
+
+.store-image {
+    height: 50px;
+    width: 50px;
+}
+
+.store-name {
+    font-weight: bold;
+    color: #323f4b;
+    font-size: 20px;
+}
+
+.store-description {
+    color: #7b8794;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
